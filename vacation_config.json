@@ -1,0 +1,85 @@
+{
+  "earth_vacation_packages": [
+    {
+      "id": "earth_001",
+      "name": "Human Settlement Observation Tour",
+      "location": "Various Earth Cities",
+      "description": "Observe human behavior patterns in their natural habitat. Watch them consume excessive amounts of caffeine and argue about trivial matters.",
+      "duration_days": 7,
+      "max_aliens": 50,
+      "telepathy_frequency": "low",
+      "price_energy_units": 1200,
+      "features": [
+        "Guided tours of human workplaces",
+        "Traffic jam observation sessions",
+        "Social media behavior analysis",
+        "Coffee shop anthropology"
+      ]
+    },
+    {
+      "id": "earth_002",
+      "name": "Natural Phenomena Experience",
+      "location": "Earth's Wilderness Areas",
+      "description": "Experience Earth's unique atmospheric and geological phenomena without human interference.",
+      "duration_days": 14,
+      "max_aliens": 25,
+      "telepathy_frequency": "unrestricted",
+      "price_energy_units": 2500,
+      "features": [
+        "Aurora observation",
+        "Earthquake sensing",
+        "Ocean wave telepathy",
+        "Mountain peak meditation"
+      ]
+    },
+    {
+      "id": "earth_003", 
+      "name": "Cultural Immersion Program",
+      "location": "Major Earth Cultural Centers",
+      "description": "Deep dive into human civilization and cultural practices. Warning: May cause confusion about human logic.",
+      "duration_days": 21,
+      "max_aliens": 10,
+      "telepathy_frequency": "low",
+      "price_energy_units": 4000,
+      "features": [
+        "Museum mind-reading sessions",
+        "Concert hall acoustics study",
+        "Restaurant behavior observation",
+        "Shopping mall anthropology"
+      ]
+    },
+    {
+      "id": "earth_004",
+      "name": "Fuel Consumption Investigation",
+      "location": "Industrial Earth Zones",
+      "description": "Investigate why these nutty Earthlings want to consume all the fuel of the universe. Research purposes only.",
+      "duration_days": 10,
+      "max_aliens": 15,
+      "telepathy_frequency": "medium",
+      "price_energy_units": 3000,
+      "features": [
+        "Gas station surveillance",
+        "Vehicle emissions analysis",
+        "Factory energy usage monitoring",
+        "Human fuel obsession study"
+      ]
+    }
+  ],
+  "telepathy_protocols": {
+    "low": {
+      "description": "Minimal telepathic emission to avoid human detection",
+      "max_range_km": 1,
+      "frequency_hz": "0.1-1.0"
+    },
+    "medium": {
+      "description": "Moderate telepathic communication for research",
+      "max_range_km": 5,
+      "frequency_hz": "1.0-10.0"
+    },
+    "unrestricted": {
+      "description": "Full telepathic capabilities in uninhabited areas",
+      "max_range_km": 100,
+      "frequency_hz": "0.1-1000.0"
+    }
+  }
+}
